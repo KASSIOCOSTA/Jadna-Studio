@@ -141,14 +141,14 @@ header p{
     padding-bottom: 7vh;
     display: block;  
     width: 200px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
     font-size: 1.5em;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 15px;
     line-height: 2em;
     font-family: "Beau Rivage", cursive;
-    
     letter-spacing: 3px;
     
     
@@ -208,4 +208,18 @@ footer hr{
     background-position: top center ;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+}
+.rodape p{
+    margin-top: 100%;
+    padding: 20px;
+    display: inline-block;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 10px;
+    background-color: rgba(44, 44, 44, 0.46);
+    color: white;
+  font-family: "Beau Rivage", cursive;
+
+ 
 }
