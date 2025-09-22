@@ -21,7 +21,7 @@ html,body{
     min-height: 100vh;
 }
 header{
-    padding: ;
+    padding: 5px;
     color: white;
     background-color: var(--cor1);
     text-shadow: 2px 2px 1px black;
