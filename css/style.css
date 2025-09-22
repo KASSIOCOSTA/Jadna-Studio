@@ -82,7 +82,7 @@ header p{
     
 }
 .trabalho{
-    background-color:  #D9B8CD;
+    background-color: black;
 }
 .carrossel{
     display: flex;
@@ -112,15 +112,17 @@ header p{
     margin: 10px 0;
     font-size: 1.3em;
     margin-left: 30px;
-    background-image: linear-gradient(to right, red, transparent);
+    background-image: linear-gradient(to right, #8946A6, transparent);
     padding: 3px 3px 3px 10px;
     border-radius: 15px 0 15px 0;
     font-family: "Goldman", sans-serif;
+    color: white;
     
 }
 .espaco{
     font-family: "Goldman", sans-serif;
-    background-color: brown;
+    background-color: #40013C;
+    color: white;
     padding: 10px;
     text-align: center;
     position: sticky;
