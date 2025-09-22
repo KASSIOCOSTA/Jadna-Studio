@@ -50,7 +50,7 @@ header p{
     padding-bottom: 6vh;
 }
 .mim{
-   
+   margin-left: 20px;
     width: 200px;
     background-color: aquamarine;
     padding: 10px 20px 10px 20px;
@@ -166,4 +166,46 @@ header p{
     background-attachment: fixed;
     background-size: cover;
     border-radius: 15px;
+}
+
+
+footer{
+    min-height: 100vh;
+    background-color: rgb(214, 101, 101);
+    
+}
+footer hr{
+    width: 200px;
+    margin: 0 auto;
+}
+.agende{
+    padding-top: 7vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+.agende img{
+    display: inline-block;
+    padding-top: 20px;
+    width: 100px;
+    animation: pulsar 2s infinite linear;
+
+}
+.btn{
+
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 1vh;
+}
+.btn img{
+    display: inline-block;
+    width: 50px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+.rodape{
+    min-height: 70vh;
+    background-image: url('../image/Jadna.jpg');
+    background-position: top center ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
