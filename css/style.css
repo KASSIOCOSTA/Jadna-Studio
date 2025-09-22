@@ -186,7 +186,11 @@ header p{
     background-size: cover;
     border-radius: 15px;
 }
-
+@supports (-webkit-touch-callout: none) {
+  .foto {
+    background-attachment: scroll; /* Safari iOS não deixa usar fixed */
+  }
+}
 
 footer{
     min-height: 100vh;
